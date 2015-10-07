@@ -1,7 +1,7 @@
 var sql = require('mssql');
 var config = {
-    user: 'rbaine',
-    password: 'Gfx812',
+    user: '******',
+    password: '******',
     server: 'evodev\\DEV', // You can use 'localhost\\instance' to connect to named instance 
     database: 'Evolution',
     port: 1433
