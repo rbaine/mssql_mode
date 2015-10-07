@@ -1,7 +1,10 @@
+
+var userInfo = require('./userInfo.js');
+
 var sql = require('mssql');
 var config = {
-    user: '******',
-    password: '******',
+    user: userInfo.getUserId(),
+    password: userInfo.getPassword(),
     server: 'evodev\\DEV', // You can use 'localhost\\instance' to connect to named instance 
     database: 'Evolution',
     port: 1433
